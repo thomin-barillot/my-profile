@@ -1,0 +1,115 @@
+/* Colors and founts */
+
+body {
+	background: white;
+	color:rgb(50, 50, 50);
+	font-family: 'Cabin', sans-serif;
+	font-size: 16px;
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba 0,0,0,.1;    /* Light shadow */
+	width: 800px;     
+	margin: 0px auto;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	color: #203239;
+	font-size: 32px;
+	font-weight: 150px;
+}
+
+h2 {
+	color: #085E7D;
+	font-size: ;
+	font-weight: ;
+}
+
+a {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: #203239;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+a:hover {
+	color: #085E7D;
+	font-weight: 900;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+} 
+
+.img-circle {
+	border-radius: 50%; 
+}
+
+.btn-blue {
+	background-color: #203239 ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
